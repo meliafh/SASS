@@ -1,0 +1,54 @@
+//font
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,100&display=swap");
+
+//variables
+$primaryColor: #f35ca3;
+$secondaryColor: #aabde6;
+$tertiaryColor: #c5abdc;
+$textColor: #393c43;
+
+//styles
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(175, 206, 233);
+}
+
+//navigator / navbar
+.costum-nav {
+  .navbar-brand {
+    img {
+      width: 20px;
+      height: 20px;
+      margin: top -7px;
+    }
+    span {
+      color: $primaryColor;
+      font-weight: 700;
+      font-size: 1.4rem;
+      margin-left: 0.4em;
+    }
+  }
+
+  #navbarNav {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: $primaryColor;
+          font-weight: 500;
+          text-transform: uppercase;
+          margin-left: 2.4em;
+        }
+        .button-signin {
+          background-color: $primaryColor;
+          color: white;
+          border-radius: 2em;
+        }
+        .button-mycart {
+          background-color: $primaryColor;
+          color: white;
+          border-radius: 2em;
+        }
+      }
+    }
+  }
+}

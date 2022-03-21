@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,100&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #afcee9;
+}
+
+.costum-nav .navbar-brand img {
+  width: 20px;
+  height: 20px;
+  margin: top -7px;
+}
+
+.costum-nav .navbar-brand span {
+  color: #f35ca3;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 0.4em;
+}
+
+.costum-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #f35ca3;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 2.4em;
+}
+
+.costum-nav #navbarNav .navbar-nav .nav-item .button-signin {
+  background-color: #f35ca3;
+  color: white;
+  border-radius: 2em;
+}
+
+.costum-nav #navbarNav .navbar-nav .nav-item .button-mycart {
+  background-color: #f35ca3;
+  color: white;
+  border-radius: 2em;
+}
+/*# sourceMappingURL=main.css.map */
